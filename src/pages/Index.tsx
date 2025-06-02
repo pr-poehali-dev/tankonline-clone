@@ -1,15 +1,15 @@
-import VKHeader from "@/components/VKHeader";
+import OpxenHeader from "@/components/OpxenHeader";
 import LoginForm from "@/components/LoginForm";
-import VKFooter from "@/components/VKFooter";
+import OpxenFooter from "@/components/OpxenFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-600 to-blue-800 font-sans">
-      <VKHeader />
+    <div className="min-h-screen bg-gray-900 font-sans">
+      <OpxenHeader />
       <div className="flex justify-center items-center min-h-[calc(100vh-120px)] px-4">
         <LoginForm />
       </div>
-      <VKFooter />
+      <OpxenFooter />
     </div>
   );
 };
