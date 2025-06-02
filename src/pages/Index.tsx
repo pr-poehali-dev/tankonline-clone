@@ -1,13 +1,15 @@
-import HeroSection from "@/components/HeroSection";
-import GameFeatures from "@/components/GameFeatures";
-import NewsSection from "@/components/NewsSection";
+import VKHeader from "@/components/VKHeader";
+import LoginForm from "@/components/LoginForm";
+import VKFooter from "@/components/VKFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-slate-900">
-      <HeroSection />
-      <GameFeatures />
-      <NewsSection />
+    <div className="min-h-screen bg-gradient-to-b from-blue-600 to-blue-800 font-sans">
+      <VKHeader />
+      <div className="flex justify-center items-center min-h-[calc(100vh-120px)] px-4">
+        <LoginForm />
+      </div>
+      <VKFooter />
     </div>
   );
 };
